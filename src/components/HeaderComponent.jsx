@@ -1,6 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import { useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import { isUserLoggedIn, logout } from '../service/AuthService';
 
 const HeaderComponent = () => {
