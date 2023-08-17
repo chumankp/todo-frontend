@@ -25,7 +25,6 @@ const HeaderComponent = () => {
                 </div>
                 <div className='collapse navbar-collapse'>
                     <ul className='navbar-nav'>
-
                         {
                             isAuth &&                         
                             <li className='nav-item'>
