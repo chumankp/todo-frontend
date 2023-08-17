@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { getAllTodos } from '../service/TodoService'
+import { completeTodo, deleteTodo, getAllTodos, inCompleteTodo } from '../service/TodoService'
 
 const ListTodoComponent = () => {
 
